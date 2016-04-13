@@ -1,3 +1,4 @@
-class fr.mleduc.adaptation.poc.Node {
-    att name: String with Index
+class gol.Cell {
+    att x: Int with index
+    att y: Int with index
 }

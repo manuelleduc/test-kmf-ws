@@ -13,9 +13,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>fr.mleduc.kmf</groupId>
-            <artifactId>model</artifactId>
-            <version>${version}</version>
+            <groupId>org.kevoree.modeling.plugin</groupId>
+            <artifactId>rocksdb</artifactId>
+            <version>4.27.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.kevoree.modeling.plugin</groupId>
+            <artifactId>websocket</artifactId>
         </dependency>
     </dependencies>
 </project>
